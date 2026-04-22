@@ -1,0 +1,49 @@
+.cake-gallery-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.gallery {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.cake-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cake-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 5px gray;
+}
+
+.cake-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px black;
+}
+
+.cake-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gallery button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: pink;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gallery button:hover {
+  background-color: hotpink;
+}

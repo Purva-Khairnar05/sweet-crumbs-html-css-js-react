@@ -13,18 +13,18 @@ function Navbar({ active }) {
         <FileUser className="menu-icon" /> About
       </Link>
 
-      <Link to="/CakeGallery" className={`menu-item ${active === "CakeGallery" ? "active-menu" : ""}`}>
+      <Link to="/gallery" className={`menu-item ${active === "gallery" ? "active-menu" : ""}`}>
         <Cake className="menu-icon" /> CakeGallery
       </Link>
 
-      <Link to="/Order" className={`menu-item ${active === "Order" ? "active-menu" : ""}`}>
+      <Link to="/order" className={`menu-item ${active === "order" ? "active-menu" : ""}`}>
         <ListOrdered className="menu-icon" /> Order
       </Link>
 
-   <Link to="/OurService" className={`menu-item ${active === "OurService" ? "active-menu" : ""}`}>
+   <Link to="/ourservice" className={`menu-item ${active === "ourservice" ? "active-menu" : ""}`}>
         <HeartHandshake className="menu-icon" /> OurService
       </Link>
-      <Link to="/Contact" className={`menu-item ${active === "Contact" ? "active-menu" : ""}`}>
+      <Link to="/contact" className={`menu-item ${active === "contact" ? "active-menu" : ""}`}>
         <Phone className="menu-icon" /> Contact
       </Link>
     </div>
