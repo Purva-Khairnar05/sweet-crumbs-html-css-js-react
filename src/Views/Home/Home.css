@@ -52,7 +52,7 @@
 .card-image {
   position: relative;
   overflow: hidden;
-  height: 200px;
+  height: 300px;
 }
 
 .card-image img {
@@ -76,20 +76,6 @@
 
 .product-card:hover .card-content h3 {
   color: #b5582d;
-}
-
-.price {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #d4a574;
-  margin: 0 0 10px 0;
-}
-
-.description {
-  color: #5d4435;
-  line-height: 1.6;
-  margin: 0;
-  font-size: 0.95rem;
 }
 
 
