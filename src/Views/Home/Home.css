@@ -1,4 +1,9 @@
-
+.home {
+background: linear-gradient(135deg, #fff8f0 0%, #fef2e4 100%);  
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-section {
@@ -20,14 +25,7 @@
   line-height: 1.6;
 }
 
-.product-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  padding: 40px 20px;
-  margin: 0 auto;
-  max-width: 1200px;
-}
+
 
 .product-card {
   background: linear-gradient(135deg, #fff5eb 0%, #fef2e4 100%);
