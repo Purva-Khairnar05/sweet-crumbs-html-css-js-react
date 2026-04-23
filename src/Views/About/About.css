@@ -67,15 +67,6 @@
   left: 100%;
 }
 
-.about-card:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 15px 35px rgba(108, 72, 49, 0.25);
-  border-color: #d4a574;
-}
-
-
-
-
 
 .about-card h3 {
  
