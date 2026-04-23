@@ -9,9 +9,6 @@ function Navbar({ active }) {
         <House className="menu-icon" /> Home
       </Link>
 
-      <Link to="/about" className={`menu-item ${active === "about" ? "active-menu" : ""}`}>
-        <FileUser className="menu-icon" /> About
-      </Link>
 
       <Link to="/gallery" className={`menu-item ${active === "gallery" ? "active-menu" : ""}`}>
         <Cake className="menu-icon" /> CakeGallery
