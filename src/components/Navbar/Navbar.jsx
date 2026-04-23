@@ -24,6 +24,7 @@ function Navbar({ active }) {
    <Link to="/ourservice" className={`menu-item ${active === "ourservice" ? "active-menu" : ""}`}>
         <HeartHandshake className="menu-icon" /> OurService
       </Link>
+      
       <Link to="/contact" className={`menu-item ${active === "contact" ? "active-menu" : ""}`}>
         <Phone className="menu-icon" /> Contact
       </Link>
