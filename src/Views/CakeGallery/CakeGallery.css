@@ -4,6 +4,8 @@
   justify-content: center;
   gap: 20px;
   background-color:  #f1f8ed;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 .cake-card {
