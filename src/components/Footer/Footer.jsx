@@ -29,20 +29,17 @@ function Footer() {
                 <div className="footer-section">
                     <h3>Contact</h3>
                   
-                 
+                    <p><a href="tel:+8788989941" class="menu-subitem">📞+91 8788989941</a></p>
+                    <p><a href="mailto:sweetcrumbs.com" class="menu-subitem">
+                        📩sweetcrumbs.com</a></p>
+                    <p>📍Pune, India</p>
                    
                 </div>
 
 
                 <div className="footer-section">
                     <h3>Features</h3>
-                    <ul>
-                        <li>Freshly Baked Daily</li>&nbsp;&nbsp;
-                        <li>100% Eggless Options</li>&nbsp;&nbsp;
-                        <li>Customized Party Cakes</li>&nbsp;&nbsp;
-                        <li>Premium Ingredients</li>&nbsp;&nbsp;
-                        <li>Trusted by 5k+ Foodies</li>
-                    </ul>
+                   
 
                 </div>
 
