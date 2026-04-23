@@ -15,17 +15,21 @@ function Footer() {
 
                 <div className="footer-section">
                     <h3>Quick Links</h3>
-                    
+                    <ul>
+                        <a href="/">Home</a>
+                        <a href="/about">About</a>
+                        <a href="/Cakegallery">CakeGallery</a>
+                        <a href="/order">Order</a>
+                        <a href="/ourservice">OurService</a>
+                        <a href="/contact">Contact</a>
+                    </ul>
                 </div>
 
 
                 <div className="footer-section">
                     <h3>Contact</h3>
                   
-                    <p><a href="tel:+8788989941" class="menu-subitem">📞+91 8788989941</a></p>
-                    <p><a href="mailto:sweetcrumbs.com" class="menu-subitem">
-                        📩sweetcrumbs.com</a></p>
-                    <p>📍Pune, India</p>
+                 
                    
                 </div>
 
