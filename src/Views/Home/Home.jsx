@@ -58,7 +58,11 @@ const Products = [
     image: Cake8
   },
 
- 
+  {
+    id: 9,
+    title: "Gifting",
+    image: Cake9
+  },
 ];
 
 function Home() {
