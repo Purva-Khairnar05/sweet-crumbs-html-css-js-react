@@ -76,6 +76,24 @@ function About() {
     }
   };
 
+  const reviews = [
+  {
+    id: 1,
+    name: "Priya",
+    text: "Best cakes ever! Fresh and delicious 😍",
+  },
+  {
+    id: 2,
+    name: "Rahul",
+    text: "Amazing service and fast delivery!",
+  },
+  {
+    id: 3,
+    name: "Sneha",
+    text: "Loved the pastries. Highly recommended!",
+  },
+];
+
   return (
     <div className="about">
       <Navbar active="about" />
@@ -136,11 +154,26 @@ function About() {
           ))}
         </div>
 
+        <div className="reviews-section">
+  <h2>Customer Reviews</h2>
+
+  <div className="reviews-container">
+    {reviews.map((review) => (
+      <div key={review.id} className="review-card">
+        <p className="review-text">"{review.text}"</p>
+        <h4 className="review-name">- {review.name}</h4>
+      </div>
+    ))}
+  </div>
+</div>
+
       </BodyContainer>
 
       <Footer />
     </div>
   );
 }
+
+
 
 export default About;
