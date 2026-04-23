@@ -75,6 +75,7 @@ function About() {
       setCurrentIndex(0);
     }
   };
+  
 
   const reviews = [
   {
