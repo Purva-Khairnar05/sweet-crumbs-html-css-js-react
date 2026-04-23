@@ -15,14 +15,7 @@ function Footer() {
 
                 <div className="footer-section">
                     <h3>Quick Links</h3>
-                    <ul>
-                        <a href="/">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/Cakegallery">CakeGallery</a>
-                        <a href="/order">Order</a>
-                        <a href="/ourservice">OurService</a>
-                        <a href="/contact">Contact</a>
-                    </ul>
+                    
                 </div>
 
 
