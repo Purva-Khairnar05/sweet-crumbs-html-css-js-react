@@ -68,15 +68,15 @@ const Products = [
 
 function Home() {
 
-  // --- HA NAVIN CODE ITHE TAKA ---
   const GALLERY_IMAGES = [
-    "./src/assets/quote0.jpg",
     "./src/assets/quote1.jpg",
     "./src/assets/quote2.jpg",
     "./src/assets/quote3.jpg",
     "./src/assets/quote4.jpg",
     "./src/assets/quote5.jpg",
     "./src/assets/quote6.jpg",
+        "./src/assets/quote8.jpg",
+          "./src/assets/quote9.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -88,7 +88,7 @@ function Home() {
   const slideRight = () => {
     setCurrentIndex((prev) => (prev + 1) % GALLERY_IMAGES.length);
   };
-  // ------------------------------
+
 
  
   return (
@@ -121,7 +121,7 @@ function Home() {
 
       <BodyContainer>
         <div className="quote-gallery-wrapper" style={{ padding: "40px 0", textAlign: "center" }}>
-          <h2 style={{ color: "#b5582d", marginBottom: "20px" }}>Special Moments</h2>
+          <h2 style={{ color: "#b5582d", marginBottom: "20px" }}>Swap for life advice from a baker!</h2>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }}>
             
             <button className="nav-btn" onClick={slideLeft} style={{ cursor: "pointer", fontSize: "24px", background: "none", border: "none" }}>❮</button>
