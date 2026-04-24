@@ -37,9 +37,7 @@ function CakeGallery() {
   const [search, setSearch] = useState("");
   const [favorites, setFavorites] = useState([]);
 
-  const toggleFav = (id) => {
-    setFavorites((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
+
     );
   };
 
