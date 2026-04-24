@@ -13,16 +13,16 @@ function Footer() {
                 </div>
 
 
-                <div className="footer-section">
+                <div className="footer-section quick links ">
                     <h3>Quick Links</h3>
-                    <ul>
-                        <a href="/">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/Cakegallery">CakeGallery</a>
-                        <a href="/order">Order</a>
-                        <a href="/ourservice">OurService</a>
-                        <a href="/contact">Contact</a>
-                    </ul>
+                  <ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/about">About</a></li>
+  <li><a href="/Cakegallery">CakeGallery</a></li>
+  <li><a href="/order">Order</a></li>
+  <li><a href="/ourservice">OurService</a></li>
+  <li><a href="/contact">Contact</a></li>
+</ul>
                 </div>
 
 
