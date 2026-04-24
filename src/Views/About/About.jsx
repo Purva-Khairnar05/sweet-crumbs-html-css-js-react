@@ -74,7 +74,6 @@ function About() {
           </p>
         </div>
 
-        {/* Gallery */}
         <div className="gallery-container">
           <span className="btn-slide" onClick={slideLeft}>&lt;</span>
 
@@ -103,7 +102,6 @@ function About() {
           ))}
         </div>
 
-        {/* About Cards */}
         <div className="about-container">
           {AboutData.map((item) => (
             <div key={item.id} className="about-card">
