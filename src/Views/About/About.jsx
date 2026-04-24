@@ -35,7 +35,7 @@ function About() {
     { url: "src/assets/gallery9.webp", title: "Tasty Cookies" },
     { url: "src/assets/gallery8.webp", title: "Soft Bread" },
     { url: "src/assets/gallery5.webp", title: "Creamy Cupcakes" },
-    { url: "src/assets/gallery17.jpg", title: "Sweet Donuts" }
+    { url: "src/assets/cake7.webp", title: "Beverage" }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
