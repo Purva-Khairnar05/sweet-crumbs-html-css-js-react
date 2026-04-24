@@ -9,7 +9,7 @@ function Footer() {
 
                 <div className="footer-section">
                     <h2 className="logo">SWEET-CRUMBS Bakery</h2>
-                    <p>Life is better with a little sugar and spice From our oven straight to your heart, A sweet little joy in every part</p>
+                    <p>Life is better with a little sugar & spice From our oven straight to your heart, A sweet little joy in every part</p>
                 </div>
 
 
