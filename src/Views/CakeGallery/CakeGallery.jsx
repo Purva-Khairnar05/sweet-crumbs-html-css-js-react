@@ -52,7 +52,7 @@ function CakeGallery() {
       <Navbar active="gallery" />
 
       <div className="gallery">
-       <center><h1><i>Search your caravings here!!</i></h1></center>
+       <center><h1><i>Search your caravings here!g</i></h1></center>
      
 <center><input
           type="text"
