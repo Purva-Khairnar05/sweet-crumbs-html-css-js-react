@@ -71,3 +71,7 @@
   font-size: 14px;
 }
 
+.menu-subitem{
+    text-decoration: none;
+    color: black;
+}
