@@ -72,9 +72,7 @@ function Footer() {
                 </a>
             </div>
 
-            <p className="copyright">
-                © 2026 Sweet Crumbs Bakery
-            </p>
+           
 
         </footer>
     );
