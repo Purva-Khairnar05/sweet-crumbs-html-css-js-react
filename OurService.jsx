@@ -74,7 +74,8 @@ function OurService() {
                             <Calendar size={48} />
 
             </div>
-                    <h3>Monthly Cake Subscription</h3>
+                                <h3>Monthly Cake Subscription</h3>
+
                  <p>
               Get fresh cakes delivered every month. Enjoy delicious treats regularly without ordering again.
             </p>
