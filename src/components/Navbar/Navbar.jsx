@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { House, FileUser, Phone, HeartHandshake, Cake, ListOrdered } from "lucide-react";
 import logo from "../../assets/logo.jpg";
 
+function Navbar({ active }) {
+  return (
+    <div className="navbar">
 
     
       <div className="nav-left">
