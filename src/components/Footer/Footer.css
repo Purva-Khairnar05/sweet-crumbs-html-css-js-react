@@ -1,4 +1,9 @@
-
+.footer {
+  background:  #BFDDAC;
+  padding: 30px 20px;
+  color: #4A2C2A;
+  padding-top: 5px;
+}
 
 
 .footer-container {
@@ -91,11 +96,7 @@
 }
 
 
-@media (max-width: 900px) {
-  .footer-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+
 
 @media (max-width: 500px) {
   .footer-container {
