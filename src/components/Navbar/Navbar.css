@@ -46,20 +46,22 @@
   transition: color 0.3s ease;
 }
 
+.menu-item:hover {
+  color: #8a4a2c;
+}
 
+.menu-icon {
+  height: 16px;
+  margin-right: 5px;
+}
 
 .active-menu {
   font-weight: bold;
   color: #8a4a2c;
 }
 
-/* 🔥 RESPONSIVE */
-@media (max-width: 768px) {
 
-  .navbar {
-    flex-wrap: wrap;
-    padding: 15px;
-  }
+
 
   .nav-left {
     position: static;
