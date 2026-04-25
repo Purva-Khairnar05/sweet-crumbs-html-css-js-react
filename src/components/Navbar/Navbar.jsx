@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { House, FileUser, Phone, HeartHandshake, Cake, ListOrdered } from "lucide-react";
 import logo from "../../assets/logo.jpg";
 
-function Navbar({ active }) {
-  return (
-    <div className="navbar">
 
     
-    z
+      <div className="nav-left">
+        <img src={logo} alt="logo" className="nav-logo" />
+        <h2 className="nav-title">Sweet Crumbs</h2>
+      </div>
 
   
       <Link to="/" className={`menu-item ${active === "home" ? "active-menu" : ""}`}>
