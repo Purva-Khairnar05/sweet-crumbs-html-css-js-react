@@ -1,5 +1,5 @@
 # 🍰 Sweet Crumbs Bakery Website
-![Sweet-Crumbs Bakery]![alt text](src/assets/sweetcrumbs.png)
+![alt text](src/assets/sweetcrumbs.png)
 A simple and responsive bakery website built using React JS, HTML, CSS, and JavaScript.  
 This project showcases a modern UI for a bakery with pages like Home, Menu, Gallery, Services, and Contact.
 
