@@ -92,12 +92,11 @@
 
 
 .cart {
-  margin-top: 50px;
+  margin-top: 40px;
   background: #fff;
   padding: 25px;
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.1);
-
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -109,20 +108,16 @@
   margin-bottom: 20px;
 }
 
-
 .cart-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-
   margin: 12px 0;
   padding: 12px;
   border-radius: 12px;
   background: #fff5eb;
-
   flex-wrap: wrap;
-  transition: 0.3s;
 }
 
 .cart-item:hover {
@@ -159,7 +154,6 @@
   padding: 6px 10px;
   border-radius: 8px;
   cursor: pointer;
-  transition: 0.2s;
 }
 
 .cart-item button:hover {
@@ -177,46 +171,73 @@
 
 
 .order-form {
-  margin-top: 40px;
-  text-align: center;
+  margin-top: 50px;
   background: #fff;
-  padding: 25px;
+  padding: 30px;
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.1);
-
-  max-width: 500px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.order-form input {
+.order-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #8b4513;
+}
+
+/* GRID LAYOUT FIX */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* FULL WIDTH FIELD */
+.full-width {
+  grid-column: span 2;
+}
+
+/* INPUTS */
+.order-form input,
+.order-form textarea {
+  width: 100%;
   padding: 12px;
-  width: 260px;
-  margin: 12px;
   border-radius: 12px;
   border: 1px solid #ccc;
+  font-size: 0.95rem;
   transition: 0.3s;
 }
 
-.order-form input:focus {
+.order-form textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
   border-color: #ff7e5f;
   outline: none;
   box-shadow: 0 0 8px rgba(255,126,95,0.3);
 }
 
+/* BUTTON */
 .order-form button {
-  padding: 12px 25px;
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
   background: linear-gradient(45deg, #ff7e5f, #ffb347);
   color: white;
   border: none;
   border-radius: 14px;
-  cursor: pointer;
   font-weight: bold;
+  cursor: pointer;
   transition: 0.3s;
 }
 
 .order-form button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 
@@ -226,7 +247,6 @@
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.1);
-
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
@@ -235,36 +255,19 @@
 
 .custom-order h2 {
   color: #b85c38;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
-
-.custom-order p {
-  color: #6b4f3b;
-  margin-bottom: 20px;
-}
-
 
 .custom-order input,
 .custom-order textarea {
-  width: 90%;
+  width: 100%;
   padding: 12px;
   margin: 10px 0;
   border-radius: 12px;
   border: 1px solid #ccc;
-  font-size: 0.95rem;
-  transition: 0.3s;
 }
-
-.custom-order input:focus,
-.custom-order textarea:focus {
-  border-color: #ff7e5f;
-  outline: none;
-  box-shadow: 0 0 8px rgba(255,126,95,0.3);
-}
-
 
 .custom-order textarea {
-  resize: none;
   min-height: 100px;
 }
 
@@ -277,14 +280,9 @@
   border-radius: 14px;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s;
 }
 
-.custom-order button:hover {
-  transform: scale(1.08);
-}
-
-
+/* SUCCESS */
 .success {
   color: green;
   font-weight: bold;
@@ -294,6 +292,14 @@
 
 
 @media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: span 1;
+  }
+
   .cart-item {
     flex-direction: column;
     align-items: flex-start;
@@ -301,11 +307,5 @@
 
   .cart h3 {
     text-align: left;
-  }
-
-  .order-form input,
-  .custom-order input,
-  .custom-order textarea {
-    width: 100%;
   }
 }
